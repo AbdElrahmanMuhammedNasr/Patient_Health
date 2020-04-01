@@ -1,11 +1,17 @@
 .Mycontainer{
   width: 150px;
   height: 1000px;
-  border: 3px solid red;
+  /*border: 3px solid red;*/
 }
-button{
+.card{
   width: 90%;
-  margin-top:20px;
+  margin-bottom:20px;
   margin-left: 5px;
   margin-right:5px;
+  text-align: center;
+  background-color: #060606 ;
+  padding-top: 10px;
+}
+.card:hover{
+  background-color: #4848f9;
 }
