@@ -8,7 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class SideBarComponent implements OnInit {
 
   constructor() { }
-  icon = ['fa-heartbeat', 'fa-eye' ]
+  icon = [
+    'fa fa-heartbeat',
+    'fa fa-eye',
+    'fas fa-bone',
+    'fas fa-brain',
+    'fas fa-tooth',
+    'fa fa-warning'
+
+  ];
 
   ngOnInit(): void {
   }
